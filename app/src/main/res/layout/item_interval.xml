@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="?attr/selectableItemBackground">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/intervalCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp">
+
+        <TextView
+            android:id="@+id/startText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Interval: " />
+
+        <TextView
+            android:id="@+id/endText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Interval: "
+            app:layout_constraintTop_toBottomOf="@id/startText" />
+
+        <TextView
+            android:id="@+id/addressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            app:layout_constraintTop_toBottomOf="@id/endText" />
+
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: "
+            app:layout_constraintTop_toBottomOf="@id/addressText" />
+
+        <TextView
+            android:id="@+id/startInterval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00"
+            app:layout_constraintStart_toEndOf="@id/startText"
+            app:layout_constraintTop_toTopOf="@id/startText" />
+
+        <TextView
+            android:id="@+id/endInterval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            app:layout_constraintStart_toEndOf="@id/endText"
+            app:layout_constraintTop_toTopOf="@id/endText" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            app:layout_constraintStart_toEndOf="@id/addressText"
+            app:layout_constraintTop_toTopOf="@id/addressText" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tel. +79999999999"
+            app:layout_constraintStart_toEndOf="@id/descriptionText"
+            app:layout_constraintTop_toTopOf="@id/descriptionText" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

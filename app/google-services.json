@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "411012532383",
+    "firebase_url": "https://navimeet-18b9b.firebaseio.com",
+    "project_id": "navimeet-18b9b",
+    "storage_bucket": "navimeet-18b9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411012532383:android:290200e6f0adaa45",
+        "android_client_info": {
+          "package_name": "com.vbazh.navimeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411012532383-i1clauqr46c7gnnd90cbbae57ge29vuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLlw68dmkuKHMfa_DGEPYuWd021olq4IU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
